@@ -5,9 +5,9 @@
 package frc.robot.subsystems;
 
 import com.ctre.phoenix6.hardware.TalonFX;
-import edu.wpi.first.wpilibj2.command.SubsystemBase;
+import edu.wpi.first.wpilibj2.command.Command;
 
-public class Intake extends SubsystemBase {
+public class Intake extends Command { //bilmiom
   public static TalonFX motor;
   public Intake() {
     motor = new TalonFX(15);//...
